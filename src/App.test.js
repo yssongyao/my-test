@@ -8,6 +8,6 @@ describe('App', () => {
     render(<App />);
     // explicit assertion
     // recommended
-    expect(screen.getByRole('textbox')).toBeInTheDocument(); 
+    expect(screen.getByText('GitHub Pages')).toBeInTheDocument(); 
   });
   });
